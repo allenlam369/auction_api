@@ -65,7 +65,7 @@ $app->get('/api/user/{id}', function($request, $response, $args) {
 });
 
 // user login by email + pwd, to get a token
-$app->post('/api/login',function($request, $response, $args) {
+$app->post('/api/login', function($request, $response, $args) {
 		$data = $request->getParsedBody();
     $email = $data['email'];
     $pwd = $data['pwd'];
