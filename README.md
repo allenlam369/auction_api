@@ -35,8 +35,8 @@ a skeleton RESTful API server for an auction system, in PHP and SLIM3
 | Get details of an item by ID                 | getitem.php   | GET       | /api/item/{id}
 | Browsing users                               | listusers.php | GET       | /api/user
 | Get details of an user by ID                 | getuser.php   | GET       | /api/user/{id}
-| New user registration                        | newuser.php   | POST      | /login/new
-| User Login                                   | login.php     | POST      | /login
+| New user registration                        | newuser.php   | POST      | /api/login/new
+| User Login                                   | login.php     | POST      | /api/login
 | Placing a bid on an item by a logged-in user | bid.php       | POST      | /api/bid
 
 
