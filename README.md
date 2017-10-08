@@ -1,6 +1,6 @@
 Auction_API
 ================================================================================== 
-a skeleton RESTful API server for an auction system, by PHP and SLIM3
+a skeleton RESTful API server for an auction system, in PHP and SLIM3
 
 - Auction_api is a PHP auction system having Restful APIs to connect to various clients.
 - At this stage it is a skeleton system with limited features and functionalities. It's purpose is to demostrate how an auction system can be designed and implemented with Restful APIs. It can also be used as a base of further development.
