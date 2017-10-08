@@ -49,7 +49,7 @@ a skeleton RESTful API server for an auction system, in PHP and SLIM3
 - For simplicity, all bidding prices are defined as integers. No cent-value is handled.
 
 
-## Further developemnts
+## Further developments
 - user email verification after registration
 - define user-type to classify different users, e.g. admin, public, etc
 - different authorization to acess different APIs based on user-types
