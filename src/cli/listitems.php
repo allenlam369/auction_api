@@ -3,7 +3,7 @@
 List items
 */
 include_once('config.php');
-$url = $baseUrl + '/api/item';
+$url = $baseUrl . '/api/item';
 
 $ch = curl_init(); 
 curl_setopt($ch, CURLOPT_URL, $url); 

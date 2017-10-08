@@ -3,7 +3,7 @@
 user login to get a token
 */
 include_once('config.php');
-$url = $baseUrl + '/api/login';
+$url = $baseUrl . '/api/login';
 
 print 'NEW USER REGISTRATION' . "\n";
 

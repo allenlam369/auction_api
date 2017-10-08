@@ -3,7 +3,7 @@
 List users
 */
 include_once('config.php');
-$url = $baseUrl + '/api/user';
+$url = $baseUrl . '/api/user';
 
 $ch = curl_init(); 
 curl_setopt($ch, CURLOPT_URL, $url); 

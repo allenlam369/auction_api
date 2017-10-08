@@ -3,7 +3,7 @@
 Get details of an user
 */
 include_once('config.php');
-$url = $baseUrl + '/api/user';
+$url = $baseUrl . '/api/user';
 
 $userId = readline("User ID: ");
 $url = $url . '/' . $userId;

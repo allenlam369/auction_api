@@ -3,7 +3,7 @@
 Get details of an item
 */
 include_once('config.php');
-$url = $baseUrl + '/api/item';
+$url = $baseUrl . '/api/item';
 
 $itemId = readline("Item ID: ");
 $url = $url . '/' . $itemId;

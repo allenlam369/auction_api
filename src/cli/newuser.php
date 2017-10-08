@@ -3,7 +3,7 @@
 For creating a new user
 */
 include_once('config.php');
-$url = $baseUrl + '/api/login/new';
+$url = $baseUrl . '/api/login/new';
 
 print 'NEW USER REGISTRATION' . "\n";
 

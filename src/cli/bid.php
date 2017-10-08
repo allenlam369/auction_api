@@ -3,7 +3,7 @@
 User place a bid. Need login to get a token first.
 */
 include_once('config.php');
-$url = $baseUrl + '/api/bid';
+$url = $baseUrl . '/api/bid';
 
 $json = include 'login.php';
 $error = parseError($json);
