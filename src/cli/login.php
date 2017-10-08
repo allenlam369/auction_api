@@ -5,7 +5,7 @@ user login to get a token
 include_once('config.php');
 $url = $baseUrl . '/api/login';
 
-print 'NEW USER REGISTRATION' . "\n";
+print 'User Login' . "\n";
 
 $email = readline("email address: ");
 $pwd = readline("password: ");
