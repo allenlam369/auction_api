@@ -31,15 +31,15 @@ a skeleton RESTful API server for an auction system, by PHP and SLIM3
 
 
 ## API Functions and its corresponding cli programs
-| Function                                     | cli program   |
-|----------------------------------------------|---------------|
-| Browsing items on auction                    | listitems.php |
-| Get details of an item by ID                 | getitem.php   |
-| Browsing users                               | listusers.php |
-| Get details of an user by ID                 | getuser.php   |
-| New user registration                        | newuser.php   |
-| User Login                                   | login.php     |
-| Placing a bid on an item by a logged-in user | bid.php       |
+| Function                                     | cli program   | HTTP Verb | URL
+|----------------------------------------------|---------------|-----------|---------------
+| Browsing items on auction                    | listitems.php | GET       | /api/item
+| Get details of an item by ID                 | getitem.php   | GET       | /api/item/{id}
+| Browsing users                               | listusers.php | GET       | /api/user
+| Get details of an user by ID                 | getuser.php   | GET       | /api/user/{id}
+| New user registration                        | newuser.php   | POST      | /api/login/new
+| User Login                                   | login.php     | POST      | /api/login
+| Placing a bid on an item by a logged-in user | bid.php       | POST      | /api/bid
 
 
 
