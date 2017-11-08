@@ -27,7 +27,7 @@ a skeleton RESTful API server for an auction system, in PHP and SLIM3
 - Before using the cli programs, the http server has to be started
 - A quick way to start a web server is to use PHP's built-in web server. In command line, cd to src/public, then start a http service by command 'php -S localhost:8080'
 - The several cli php files assume the domain is localhost, the http port is 8080, the DocumentRoot is src/public. If you have other settings you need to edit the file src/cli/config.php
-- After starting up the web server, cd to src/cli, run commands like "php getitmes.php", "php getitem.php", and other php programs
+- After starting up the web server, cd to src/cli, run commands like "php getitems.php", "php getitem.php", and other php programs
 - The returned info to the command line are in JSON pretty-print formats for easy reading
 
 
