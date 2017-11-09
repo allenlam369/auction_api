@@ -46,7 +46,7 @@ a skeleton RESTful API server for an auction system, in PHP and SLIM3
 
 ## Create a few new users
 - The DB restored from the dump contains two pre-loaded auction items (id is 1 and 2). You can view the items by listitems.php and getitem.php
-- At the beginning there is no user in the DB. You can create some user accounts (using newuser.php) by providing 3 informations: username, email, and password
+- At the beginning there is no user in the DB. You can create some user accounts by providing 3 informations: username, email, and password
 - create a new user by "php newuser.php"
 - For example, username=aa, email=aa@gmail.com, password=aa (or anything you like)
 - Users login by email and password (by login.php). Email is used as a unique identification for users. User ID is for system uses
