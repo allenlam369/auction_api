@@ -1,0 +1,17 @@
+services:
+
+  api:
+    image: openjdk:11
+    container_name: api
+    restart: always
+    working_dir: /app
+    ports:
+      - 9999:9090
+#    volumes:
+#      - ./:/app
+#    build: .
+    command: ./mvnw spring-boot:run
+
+
+
+
